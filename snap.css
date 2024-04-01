@@ -1,0 +1,357 @@
+.wrapper{
+width: 100%;
+margin: 10px;
+/*background-color:rgb(154, 206, 213);*/
+}
+.navbar{
+    height: 130px;
+    width: 100%;
+    background-color:rgba(206, 243, 243, 0.601);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar{
+    height: 1200px;
+    width: 350px;
+    background-color: rgba(195, 230, 235, 0.587);
+    margin-top: 30px;
+    border-radius: 20px;
+    float: left;
+}
+.user{
+background-color: rgba(255, 255, 255, 0);
+margin-top: 30px;
+border-radius: 20px;
+display: flex;
+margin-bottom: 10px;
+align-items: center;
+}
+.invoiced{
+display: flex;
+margin-bottom: 10px;
+margin-top: 10px;
+align-items: center;
+background-color: #A2A2A2;
+border-radius: 20px;
+}
+
+.dueinvoice{ 
+    width: 350px;
+    background-color: rgb(161, 161, 161);
+   /*float: right;*/
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.footer{
+width: 100%;
+    background-color: rgb(255, 255, 255);
+    /*float: left;*/
+    margin-bottom: 20px;
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-radius: 20px;
+}
+
+.create-btn{
+    background-color: #d0f2f26b;
+    color:black;
+    width:150px;
+    height: 50px;
+font-size:small;
+font-family: sans-serif;
+border-radius: 20px;
+font-size: 25px;
+}
+.logo{
+margin-top: 10px;
+margin-left: 10px;
+}
+.navright{
+    display:flex;
+    align-items: center;
+    padding-right: 50px;
+}
+.cusdiv{
+    display:flex;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.pclass{
+    
+padding-left: 50px;
+
+}
+.welcome{
+    display:inline;
+    font-family:sans-serif;
+    font-size:xx-large;
+   margin-bottom: 40px;
+}
+.navlink{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    padding: 20px;
+}
+
+
+.nav-dtn {
+    display: flex;
+    align-items: center;
+    width: 190px;
+    margin: 10px;
+    padding: 10px;
+    color: #0491F6;
+}
+
+
+.nav-dtn:hover {
+
+        background: rgba(50, 53, 53, 0.57);
+
+        background: linear-gradient(180deg, rgb(208, 209, 209) 35%, rgb(206, 216, 218) 100%);
+
+        border-radius: 30px;
+
+        box-shadow: 0px 2px 2px #A2A2A2;
+}
+.sidebar {
+    width: 300px;
+    margin-right: 20px;
+}
+.bodyselection{
+display: flex;
+}
+.content-sec {
+    width: 75%;
+    margin-left: 5px;
+}
+.imglaptop{
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+}
+.sub-div{
+    
+}
+.customizedatagrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+   justify-content: space-between;
+}
+.invoicesection{
+    display:flex;
+    align-items: center;
+}
+.invoicetitle{
+    background-color: rgba(167, 167, 167, 1);
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.hr{
+    height: 2px;
+    width: 125px;
+    background-color: rgba(157, 154, 154, 0.491);
+    margin-top: 20px;
+   margin-right: 20px
+}
+.connector{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.line{
+    width: 129px;
+    color: #040404;
+padding: 20px 10px;
+}
+.p20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ .invoice1 {
+ text-align: center;
+  color: #5b5858;
+line-height: 30px;
+}
+
+.borderright{
+    border-right: 2px solid white;
+    
+}
+.borderleft{
+    border-left: 2px solid white;
+}
+.p201{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right:100px ;
+}
+.p202{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   padding-left: 50px;
+}
+.invoicegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+   justify-content: space-between;
+   width: 100%;
+   align-items: center;
+}
+.invheading{
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: 600;
+}
+.input-bottom-line{
+display:flex;
+flex-direction: row;
+margin: 0 5px;
+width: 100%;
+}
+
+.con-line{
+border-bottom: 1px solid rgb(159, 156, 156);
+margin: 5px 5px;
+width: 100px;
+}
+
+.con-line1{
+    border-bottom: 1px solid rgb(157, 154, 154);
+    margin: 5px 5px;
+    width: 100px;
+    }
+
+.customize-data-grid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+
+.invoice-section {
+display:flex;
+align-items: center;
+}
+.invoice-title {
+background: #a4a4a4;
+text-align: center;
+border-radius: 5px;
+padding: 5px;
+min-width: 80px;
+height: 72px;
+}
+.times-dropdown {
+background: #ebecec;
+border: none;
+padding: 12px 40px;
+border-radius: 20px;
+color: #312f2f;
+text-align: center;
+}
+
+.border-bottom{
+border-bottom: 1px solid rgb(14, 14, 14);
+}
+
+.cashflowrow{
+display: grid;
+grid-template-columns: 1fr auto;
+grid-template-rows: 1fr;
+gap: 10px;
+}
+
+.cashflow{
+background-color: #A2A2A2;
+border-radius: 20px;
+}
+
+.cashflowheader{
+display:flex;
+padding-left: 10px;
+}
+.times-dropdown1{
+        background: #797d7d;
+        border: none;
+        padding-left: auto;
+        padding-right: auto;
+        border-radius: 20px;
+        color: #fff;
+     text-align: center;
+     margin-left: auto;
+     padding: 10px 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-right:10px;
+ }
+
+ .line{
+    display: grid;
+    grid-template-columns: [first]28px auto;
+    align-items: center;
+    padding:10px 15px 10px 15px;
+ }
+
+ .border-bottom1{
+    border-bottom: 1px solid rgb(14, 14, 14);
+    width: 650px;
+    }
+
+.months{
+    white-space: nowrap;
+}
+
+.months span{
+    display: inline-block;
+    padding: 20px 40px ;
+}
+
+.cashflowcontent{
+   text-align: center;
+   padding-left: 30px;
+   padding-top: 50px;
+}
+
+.cashflowcontent1{
+    padding-top: 150px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.border-bottom2{
+    border-bottom: 1px solid rgb(99, 95, 95);
+    width: 150px;
+    padding-right: 70px;
+    padding-top: 40px;
+    }
+
+.column{
+    width: 400px;
+    margin-left: 10px;  
+}
+
+.quicklinks{
+
+}
+.socialfooter{
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #fff;
+    
+}
